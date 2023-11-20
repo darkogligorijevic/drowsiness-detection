@@ -1,10 +1,10 @@
-# Drowsiness Alert System
+# Drowsiness Detection Alert System
 
 ## Description
 A Python-based computer vision project that detects drowsiness using facial landmarks.
 
 ## Overview
-This project uses OpenCV, dlib, and other libraries to create a real-time drowsiness alert system. It analyzes facial landmarks to determine if the eyes are closed. If the eyes are closed, the user will be alerted.
+This project uses OpenCV, dlib, and other libraries to create a real-time drowsiness detection alert system. It analyzes facial landmarks to determine if the eyes are closed. If the eyes are closed, the user will be alerted.
 
 ## Features
 - Real-time facial landmark detection.
@@ -23,7 +23,7 @@ This project uses OpenCV, dlib, and other libraries to create a real-time drowsi
 1. Clone the repository:
     ```bash
     git clone https://github.com/your-username/drowsiness-alert.git
-    cd drowsiness-alert
+    cd drowsiness-detection-alert
     ```
 
 2. Run the main script:
@@ -31,7 +31,7 @@ This project uses OpenCV, dlib, and other libraries to create a real-time drowsi
     python main.py
     ```
 
-3. Feel free to test the drowsiness alert system.
+3. Feel free to test the drowsiness detection alert system.
 
 ## Dependencies
 - OpenCV
