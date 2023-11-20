@@ -40,9 +40,9 @@ This project uses OpenCV, dlib, and other libraries to create a real-time drowsi
 - pygame
 
 ### Install dependencies using:
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 ## License
 This project is licensed under the [MIT License]('./LICENSE').
