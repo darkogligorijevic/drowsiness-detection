@@ -68,7 +68,7 @@ while True:
             start_time = None
 
     if eyes_closed:
-        cv2.putText(frame, "Oci su zatvorene", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+        cv2.putText(frame, "Eyes are closed", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 
     cv2.imshow('Drowsiness Detection', frame)
 
