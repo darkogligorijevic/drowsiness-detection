@@ -44,13 +44,33 @@ This project uses OpenCV, dlib, and other libraries to create a real-time drowsi
 pip install -r requirements.txt
 ```
 
-## License
-This project is licensed under the [MIT License](https://github.com/darkogligorijevic/drowsiness-detection/blob/master/LICENSE).
-
 ## Acknowledgments
 - The facial landmarks predictor model is provided by dlib.
 
+## Configuration
+The drowsiness alert system provides several configuration options that users can adjust to customize the behavior of the alert system. These options include:
+- `EAR_THRESHOLD`: The threshold for detecting closed eyes.
+- `ALERT_DURATION`: The duration (in seconds) for triggering the drowsiness detection alert.
+
+To configure these options, users can modify the corresponding constants in the `main.py` script.
+
+## Troubleshooting
+If you encounter issues while running the drowsiness deetection alert system, consider the following troubleshooting steps:
+
+1. **Issue: Eyes not detected**
+   - **Solution:** Ensure proper lighting conditions and adjust the camera angle for better detection.
+
+2. **Issue: False positives**
+   - **Solution:** Tweak the `EAR_THRESHOLD` constant in the `main.py` script to fine-tune the sensitivity.
+  
 ## Contributing 
 Feel free to contribute to this project.
+
+## License
+This project is licensed under the [MIT License](https://github.com/darkogligorijevic/drowsiness-detection/blob/master/LICENSE).
+
+
+
+
 
 
