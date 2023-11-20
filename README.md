@@ -48,7 +48,7 @@ pip install -r requirements.txt
 - The facial landmarks predictor model is provided by dlib.
 
 ## Configuration
-The drowsiness alert system provides several configuration options that users can adjust to customize the behavior of the alert system. These options include:
+The drowsiness detection alert system provides several configuration options that users can adjust to customize the behavior of the alert system. These options include:
 - `EAR_THRESHOLD`: The threshold for detecting closed eyes.
 - `ALERT_DURATION`: The duration (in seconds) for triggering the drowsiness detection alert.
 
